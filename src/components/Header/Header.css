@@ -1,0 +1,72 @@
+.header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(199, 237, 255, 0.198);
+  border-radius: 20px;
+}
+
+.header button {
+  background-color: #616ff1;
+  border: none;
+  width: 160px;
+  height: 46px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.header button:hover {
+  background-color: #4a5cff;
+}
+
+.header button:active {
+  transform: scale(0.9);
+}
+
+/* .header select {
+  width: 200px;
+  height: 46px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #cccee0;
+  cursor: pointer;
+} */
+
+.custom-select {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 150px;
+  height: 46px;
+}
+
+.custom-select select {
+  width: 100%;
+  outline: none;
+  appearance: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+  border-radius: 10px;
+}
+
+.custom-select .icon-Con {
+  width: 50px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}

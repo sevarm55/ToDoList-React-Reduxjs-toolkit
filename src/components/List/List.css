@@ -1,0 +1,18 @@
+.listPage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  width: 90%;
+  height: auto;
+  background-color: #ecedf6;
+  border-radius: 15px;
+  color: #000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

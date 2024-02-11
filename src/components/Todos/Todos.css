@@ -1,0 +1,93 @@
+.todos {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  gap: 5px;
+}
+
+.todosText h4 {
+  text-transform: capitalize;
+}
+
+.todos p {
+  width: 100%;
+}
+
+.todos span {
+  padding: 10px;
+  background-color: #efefef;
+  border-radius: 4px;
+}
+
+.todos span {
+  cursor: pointer;
+}
+
+.todos span:hover {
+  background-color: #cdcdcd;
+}
+
+.totosLeft {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input[type="checkbox"] {
+  height: 27px;
+  width: 27px;
+  background-color: #dee0e2;
+  appearance: none;
+  cursor: pointer;
+  position: relative;
+  transition: 0.1s;
+  margin-top: 5px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #646fee;
+}
+
+input[type="checkbox"]:hover {
+  background-color: #646fee;
+}
+
+input[type="checkbox"]:active {
+  transform: scale(0.9);
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 9px;
+  width: 5px;
+  height: 13px;
+  border: 4px solid transparent;
+  border-left: none;
+  border-top: none;
+  transform: rotate(45deg) scale(1);
+}
+
+input[type="checkbox"]:checked:before {
+  border-color: #fff;
+}
+
+.todosText p {
+  font-size: 14px;
+}
+
+.totosCheckbox {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.todosChcekced {
+  background-color: #ffffff87;
+  opacity: 0.5;
+}
